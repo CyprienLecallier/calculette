@@ -8,3 +8,9 @@ def soustraction(a,b):
 
 def multiplication(a,b):
     return a*b
+
+def division(a,b):
+    if b == 0 :
+        return "Erreur. Impossible de diviser par 0"
+    else:
+        return a/b
